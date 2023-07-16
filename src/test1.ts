@@ -1,29 +1,29 @@
 // exercise 1
-const myName = "Sebastian";
+const myName = 'Sebastian';
 
 // exercise 2
 const favoriteNumber = 50;
 
 // exercise 3
 const animals = [
-  "gato",
-  "perro",
-  "vaca",
-  "caballo",
-  "loro",
-  "cocodrillo",
-  "cuervo",
-  "canguro",
-  "girafa",
-  "elefante",
+  'gato',
+  'perro',
+  'vaca',
+  'caballo',
+  'loro',
+  'cocodrillo',
+  'cuervo',
+  'canguro',
+  'girafa',
+  'elefante',
 ];
 
 // exercise 4
 class organization {
-  name: string = "";
-  slogan: string = "";
+  name: string = '';
+  slogan: string = '';
   quantityOfWorkers: number = 0;
-  bussisnesHours: string = "";
+  bussisnesHours: string = '';
   remoteJob: boolean = false;
   creationDate: number = 0;
 };
@@ -41,7 +41,7 @@ interface organization {
 
 // exercise 5
 class students {
-  name: string = "";
+  name: string = '';
   age: number = 0;
   grade: number = 0;
 
@@ -84,19 +84,19 @@ console.log(highestNumber);
 
 // exercise 8
 class nameOfthisPerson {
-  name: string = "";
+  name: string = '';
 
   constructor(name: string){
     this.name = name;
   };
 
   sayHello(){
-    return "Hello, my name is " + this.name;
+    return 'Hello, my name is ' + this.name;
   };
 
 };
 
-let nameOfThePerson = new nameOfthisPerson("Sebastian");
+let nameOfThePerson = new nameOfthisPerson('Sebastian');
 let newVaule = nameOfThePerson.sayHello
 
 console.log(newVaule);
